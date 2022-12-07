@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    background-color: #273549;
+    font-family: 'Roboto Slab', serif;
+}
+
+.hero{
+    width: 90%;
+    margin: 100px 0 20px 50px;
+    border-bottom: 1px solid #2F3E53;
+}
+
+.hero h1{
+    font-size: 42px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 0px 0px 4px black;
+}
+
+span{
+    color: #10B981;
+}
+
+#desc{
+    margin: 10px 0 40px 0;
+    font-size: 18px;
+    color: white;
+}
+
+button{
+    margin: 10px 0 30px 0;
+    padding: 8px 12px;
+    font-size: 18px;
+    border: none;
+    background-color: #10B981;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0px 0px 4px black;
+}
+
+button:hover{
+    background-color: #4ADF86;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.sub-hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#firstPass{
+    border: 1px solid #2F3E53;
+    background-color: #2F3E53;
+    margin: 10px 0;
+    font-size: 16px;
+    padding: 8px 100px;
+    color: #4ADF86;
+    border-radius: 10px;
+}
+
+
+#secondPass{
+    border: 1px solid #2F3E53;
+    background-color: #2F3E53;
+    margin: 10px 0;
+    font-size: 16px;
+    padding: 8px 100px;
+    color: #4ADF86;
+    border-radius: 10px;
+}
