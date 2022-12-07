@@ -52,3 +52,10 @@ function setSecondPassword(){
         document.querySelector("#secondPass").innerHTML += letter
     }
 }
+
+/*
+    ToDos:
+        1. Abitlity to set a password length from the user
+        2. Add "copy-on-click"
+        3. Toggle "symbols" and "numbers" on/off
+*/
