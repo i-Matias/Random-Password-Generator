@@ -40,14 +40,14 @@ function getSecondRandomLetter(){
 }
 
 function setFirstPassword(){
-    document.querySelector("#firstPass").innerHTML = "1." 
+    document.querySelector("#firstPass").innerHTML = "" 
     for(let letter of firstPassword){
         document.querySelector("#firstPass").innerHTML += letter
     }
 }
 
 function setSecondPassword(){
-    document.querySelector("#secondPass").innerHTML = "2." 
+    document.querySelector("#secondPass").innerHTML = "" 
     for(let letter of secondPassword){
         document.querySelector("#secondPass").innerHTML += letter
     }
