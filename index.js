@@ -8,13 +8,19 @@ const characters = ["A","B","C","D","E","F","G"
 "+","=","{","[","}","]",",","|",":",";","<",
 ">",".","?",
 "/"];
-const maxLengthPassword = 16;
+let maxLengthPassword;
 
 
 let firstPassword = [];
 let secondPassword = [];
 
+
 document.querySelector("#password").addEventListener("click", randomPassword);
+document.querySelector("#lengthInput").addEventListener("click", setLength);
+
+function setLength(){
+    maxLengthPassword = document.querySelector("#lengthInput").value;
+}
 
 function randomPassword(){
     let i = 0;
@@ -55,7 +61,7 @@ function setSecondPassword(){
 
 /*
     ToDos:
-        1. Abitlity to set a password length from the user
+        1. Abitlity to set a password length from the user -> done
         2. Add "copy-on-click"
         3. Toggle "symbols" and "numbers" on/off
 */
