@@ -16,7 +16,7 @@ let secondPassword = [];
 
 
 document.querySelector("#password").addEventListener("click", randomPassword);
-document.querySelector("#lengthInput").addEventListener("click", setLength);
+document.querySelector("#lengthInput").addEventListener("input", setLength);
 
 function setLength(){
     maxLengthPassword = document.querySelector("#lengthInput").value;
