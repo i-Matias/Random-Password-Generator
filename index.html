@@ -16,11 +16,24 @@
             How long do you want your password to be?
             <input type="number" name="value" id="lengthInput">
         </h4>
-        <button id="password">Generate passwords</button>
+        <div id="toggle">
+            <p id="desc">Do you want your password to have numbers and symbols</p>
+            <label class="switch">
+                <input type="checkbox" id="toggle-switch">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <button id="password" onclick="randomPassword()">Generate passwords</button>
     </div>
     <div class="sub-hero">
-        <button id="firstPass">FIRST PASSWORD GOES HERE</button>
-        <button id="secondPass">SECOND PASSWORD GOES HERE</buttom>
+        <div>
+            <p id="firstPass">FIRST PASSWORD GOES HERE</p>
+            <button class="copy-password" id="copy-first-password" onclick="copyPassword(this.id); return false;">copy</button>
+        </div>
+        <div>
+            <p id="secondPass">SECOND PASSWORD GOES HERE</p>
+            <button class="copy-password" id="copy-second-password" onclick="copyPassword(this.id)">copy</button>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>
