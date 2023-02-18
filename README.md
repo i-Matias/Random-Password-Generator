@@ -2,15 +2,17 @@
 
 It was one of the first projects I developed while learning more about JavaScript, and that's why I implemented vanilla JavaScript.
 
-<img width="815" alt="image" src="https://user-images.githubusercontent.com/104035433/211208436-971b89f9-be32-44fc-a73d-3fd8c70cdb53.png">
+![image](https://user-images.githubusercontent.com/104035433/219902745-217f3156-a0c2-4a11-92ba-8144cff15c2a.png)
 
-  - The user can decide on his preferred length for the password
-  - The password will generate letters, symbols and numbers
-  - On each button pressed generated random password will show, both different from each other.
- 
-<img width="222" alt="image" src="https://user-images.githubusercontent.com/104035433/211208554-5e84beb9-696f-4ecd-ae91-d69f0f8949b0.png">
-
-![image](https://user-images.githubusercontent.com/104035433/211209164-e8d82f31-1507-476c-a024-b37556164582.png)
+  - The user can specify the length of his password.
+  - The user can choose whether they want numbers or symbols in their password.
+  - When you press a button, a randomly generated password will appear, both of which are unique.
+  - Depending on which password is selected, the Copy button copies it to the clipboard.
 
 
-It was fun building this mini-project, and for sure will think of a more suitable implementation to enhance it. I left some concepts commented on the code, but if anyone has something better and more fun, please do tell I would love the suggestion.
+![image](https://user-images.githubusercontent.com/104035433/219902830-61ce0c07-aa07-4310-a1de-aed3d85b8399.png)
+
+![image](https://user-images.githubusercontent.com/104035433/219902845-4e6309da-1dac-4af8-bdd6-3a263e23d5b7.png)
+
+
+It was a lot of fun building this mini-project, and I'm sure I'll come up with a better way to improve it. But if anyone has a better and more entertaining idea, please let me know.
